@@ -781,6 +781,35 @@ h3 {
     width: 100%;
   }
 
+  .social-actions {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .social-actions .button {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    min-height: 42px;
+    gap: 5px;
+    padding: 10px 6px;
+    font-size: 0.68rem;
+  }
+
+  .social-actions .instagram-icon {
+    padding-right: 6px;
+  }
+
+  .social-button.youtube-icon svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .social-button.instagram-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
   .build-photo img,
   .placeholder-stage div {
     height: clamp(220px, 62vw, 300px);
