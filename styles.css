@@ -724,7 +724,49 @@ h3 {
   .social-actions {
     grid-column: auto;
     grid-row: auto;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+    gap: 7px;
+  }
+
+  .social-actions .button {
+    flex: 0 1 auto;
+    width: auto;
+    min-width: 0;
+    min-height: 42px;
+    padding: 10px;
+    font-size: 0.72rem;
+  }
+
+  .social-actions .primary {
+    flex-basis: 34%;
+  }
+
+  .social-actions .social-button {
+    flex-basis: 31%;
+  }
+
+  .social-actions .social-button .button-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .social-actions .instagram-icon {
+    padding-right: 10px;
+  }
+
+  .social-button.youtube-icon svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .social-button.instagram-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   .approach-header {
@@ -779,51 +821,6 @@ h3 {
 
   .button {
     width: 100%;
-  }
-
-  .social-actions {
-    flex-wrap: nowrap;
-    gap: 7px;
-  }
-
-  .social-actions .button {
-    flex: 0 1 auto;
-    width: auto;
-    min-width: 0;
-    min-height: 42px;
-    padding: 10px;
-    font-size: 0.72rem;
-  }
-
-  .social-actions .primary {
-    flex-basis: 34%;
-  }
-
-  .social-actions .social-button {
-    flex-basis: 31%;
-  }
-
-  .social-actions .social-button .button-label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-  }
-
-  .social-actions .instagram-icon {
-    padding-right: 10px;
-  }
-
-  .social-button.youtube-icon svg {
-    width: 19px;
-    height: 19px;
-  }
-
-  .social-button.instagram-icon svg {
-    width: 20px;
-    height: 20px;
   }
 
   .build-photo img,
