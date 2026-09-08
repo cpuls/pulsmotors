@@ -25,9 +25,8 @@ Then visit `http://localhost:8000`.
 - The supplied suspension upgrade photo is stored at `assets/porsche-912e-suspension-upgrades.jpg`.
 - The supplied body restoration photo is stored at `assets/porsche-912e-body-restoration.jpg`.
 - The supplied MakeMineElectric workshop photo is stored at `assets/makemineelectric-workshop.jpg`.
-- The supplied headshot is stored at `assets/carsten-puls-headshot.jpg`.
+- The supplied headshot is stored at `assets/carsten-puls-profile-headshot.png`.
 - Saira and Inter are loaded from Google Fonts, with system sans-serif fallbacks.
-- Replace clearly labeled placeholders before publishing public links widely.
 
 ## Information Still Needed
 
