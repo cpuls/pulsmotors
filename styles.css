@@ -894,3 +894,6 @@ h3 {
 .form-status.error { color: #ffb5a6; }
 .form-status.success { color: #a7d99a; }
 @media (max-width: 620px) { .contact-grid { grid-template-columns: 1fr; gap: 24px; } .site-nav { gap: 12px; font-size: .7rem; } }
+
+/* Analytics preferences */
+.analytics-choice{position:fixed;bottom:16px;right:16px;z-index:30;width:min(440px,calc(100% - 32px));padding:20px;background:var(--panel);color:var(--text);border:1px solid #52616b;box-shadow:0 6px 30px #0008}.analytics-choice[hidden]{display:none}.analytics-choice p{font-size:14px;line-height:1.5;margin:0 0 16px}.analytics-choice>div{display:flex;gap:12px}.analytics-choice button{flex:1;padding:10px 14px;font:600 13px Inter,sans-serif;background:var(--bg);color:var(--text);border:1px solid #65737c;cursor:pointer}.analytics-settings{border:0;padding:0;background:none;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
