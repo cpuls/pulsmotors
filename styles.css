@@ -874,3 +874,23 @@ h3 {
     object-position: right top;
   }
 }
+
+/* Contact form */
+#contact { scroll-margin-top: 115px; }
+.contact-section { border-top: 1px solid var(--line); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 6vw, 80px); align-items: start; }
+.contact-grid h2 { margin-top: 0; }
+.contact-form { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.contact-form label { font-weight: 600; margin-top: 8px; font-size: .92rem; }
+.contact-form input:not([type=hidden]), .contact-form textarea { width: 100%; padding: 12px 14px; border: 1px solid #4b555e; border-radius: var(--radius); background: var(--bg); color: var(--text); font: inherit; }
+.contact-form textarea { resize: vertical; }
+.contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--orange); outline-offset: 2px; }
+.contact-form .field-note { font-size: .8rem; margin: 0; color: var(--muted); }
+.contact-form .button { align-self: flex-start; margin-top: 12px; cursor: pointer; }
+.contact-form button:disabled { opacity: .65; cursor: wait; }
+.form-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.form-status { margin: 8px 0 0; }
+.form-status:empty { display: none; }
+.form-status.error { color: #ffb5a6; }
+.form-status.success { color: #a7d99a; }
+@media (max-width: 620px) { .contact-grid { grid-template-columns: 1fr; gap: 24px; } .site-nav { gap: 12px; font-size: .7rem; } }
